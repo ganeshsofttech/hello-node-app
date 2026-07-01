@@ -99,7 +99,7 @@ const server = http.createServer((req, res) => {
    // HOME PAGE
    if (req.method === "GET" && req.url === "/") {
 
-       fs.readFile("index.html", "utf8", (err, html) => {
+       fs.readFile("Home.html", "utf8", (err, html) => {
 
            const table = generateVisitorTable();
 

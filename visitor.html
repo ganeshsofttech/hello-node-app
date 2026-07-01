@@ -4,46 +4,46 @@
 
 <head>
 
-<title>Add Visitor</title>
+    <title>Add Visitor</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
+    <center>
+    <h1>Add Visitor</h1>
 
-<h1>Add Visitor</h1>
+    <form method="POST" action="/savevisitor">
 
-<form method="POST" action="/savevisitor">
+        <label>Name</label>
 
-<label>Name</label>
+        <input type="text" name="name">
 
-<input type="text" name="name">
+        <br><br>
 
-<br><br>
+        <label>Company</label>
 
-<label>Company</label>
+        <input type="text" name="company">
 
-<input type="text" name="company">
+        <br><br>
 
-<br><br>
+        <label>Purpose</label>
 
-<label>Purpose</label>
+        <input type="text" name="purpose">
 
-<input type="text" name="purpose">
+        <br><br>
 
-<br><br>
+        <label>Host</label>
 
-<label>Host</label>
+        <input type="text" name="host">
 
-<input type="text" name="host">
+        <br><br>
 
-<br><br>
+        <input type="submit" value="Save Visitor">
 
-<input type="submit" value="Save Visitor">
-
-</form>
-
+    </form>
+</center>
 </body>
 
 </html>
